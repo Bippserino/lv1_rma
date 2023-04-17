@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
         if (readLine()!! == "yes") {
             print("\nWhich dice would you like to roll?\n")
             var userInput = readLine()!!.split(' ').map(String::toInt)
-            if (userInput.size != 0) {1
+            if (userInput.size != 0) {
                 for(input in userInput) {
                     game.dice.roll(input - 1)
                 }
