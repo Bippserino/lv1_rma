@@ -18,9 +18,6 @@ fun main(args: Array<String>) {
         }
     }
 
-    for (i in 0..3) {
-        game.dice.setValue(i, 1)
-    }
     game.getDiceValues()
     if (game.isYahtzee()) {
         print("You got Yahtzee!")
